@@ -4,5 +4,5 @@ prompt += "\n What is your first name? "
 message = ''
 while message != 'quit':
     message = input(prompt)
-    print(message)
-    
+    if message != 'quit':
+        print(message)
